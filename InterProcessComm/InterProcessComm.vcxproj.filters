@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="res">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ComLib">
+      <UniqueIdentifier>{afe1f265-d7dc-4402-870d-6747cf2c6e24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComLib\mempool">
+      <UniqueIdentifier>{3fa4d81d-e6c0-4a3b-8c55-51f56e4d88bd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ComTools.h">
+      <Filter>ComLib\mempool</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ComDataPool.h">
+      <Filter>ComLib\mempool</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ComDebug.h">
+      <Filter>ComLib\mempool</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ComList.h">
+      <Filter>ComLib\mempool</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CmdLineInterpret.h">
+      <Filter>ComLib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ComProcess.h">
+      <Filter>ComLib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SerialPortWin32.h">
+      <Filter>ComLib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ComThread.h">
+      <Filter>ComLib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IpcAccess.h">
+      <Filter>ComLib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IpcMsgDef.h">
+      <Filter>ComLib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="InterProcessComm.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ComDataPool.cpp">
+      <Filter>ComLib\mempool</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ComDebug.cpp">
+      <Filter>ComLib\mempool</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ComList.cpp">
+      <Filter>ComLib\mempool</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ComTools.cpp">
+      <Filter>ComLib\mempool</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CmdLineInterpret.cpp">
+      <Filter>ComLib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ComProcess.cpp">
+      <Filter>ComLib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SerialPortWin32.cpp">
+      <Filter>ComLib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ComThread.cpp">
+      <Filter>ComLib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\IpcAccess.cpp">
+      <Filter>ComLib</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/bg.png</file>
+        <file>image/bg_left.png</file>
+        <file>image/car.png</file>
+        <file>image/icon_camera.png</file>
+        <file>image/icon_can.png</file>
+        <file>image/icon_clear.png</file>
+        <file>image/icon_dummy.jpg</file>
+        <file>image/icon_gps.png</file>
+        <file>image/icon_lateral_control.png</file>
+        <file>image/icon_lidar.png</file>
+        <file>image/icon_map.png</file>
+        <file>image/icon_menu.png</file>
+        <file>image/icon_navi.png</file>
+        <file>image/icon_open.png</file>
+        <file>image/icon_radar.png</file>
+        <file>image/icon_save.png</file>
+        <file>image/icon_send.png</file>
+        <file>image/icon_start.png</file>
+        <file>image/icon_update.png</file>
+        <file>image/xx.bmp</file>
+    </qresource>
+</RCC>
